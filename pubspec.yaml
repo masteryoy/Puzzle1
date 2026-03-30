@@ -1,0 +1,16 @@
+name: puzzle1
+description: A new Flutter project for a block crush game
+version: 0.1.0
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  # Add more dependencies if needed
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
