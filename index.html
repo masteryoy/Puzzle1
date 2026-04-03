@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Block Crush</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="game">
+      <header class="hud">
+        <div>
+          <h1>Block Crush</h1>
+          <p>Intercambia bloques para formar 3 o más del mismo color.</p>
+        </div>
+        <div class="stats">
+          <div class="stat-card">
+            <span>Puntos</span>
+            <strong id="score">0</strong>
+          </div>
+          <div class="stat-card">
+            <span>Movimientos</span>
+            <strong id="moves">0</strong>
+          </div>
+          <div class="stat-card">
+            <span>Meta</span>
+            <strong id="goal">2500</strong>
+          </div>
+        </div>
+      </header>
+
+      <section class="board-wrapper">
+        <div id="board" class="board" aria-label="Tablero de Block Crush"></div>
+      </section>
+
+      <footer class="controls">
+        <button id="restartBtn">Reiniciar</button>
+        <p id="status">Haz clic en dos bloques adyacentes para intercambiarlos.</p>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
